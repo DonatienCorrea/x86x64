@@ -1,0 +1,29 @@
+body {
+    background-color: #1c2a68;
+}
+body, a {
+    color: #F8F9FA
+}
+
+a:hover {
+    color: #4dd32b;
+}
+
+.logo {
+    width: 150px;
+    transform: rotate(10deg);
+}
+
+.separator-wb {
+    height: 50px;
+    background: linear-gradient(178deg, #F8F9FA 50%, #1c2a68 51%)
+}
+
+.separator-bw {
+    height: 50px;
+    background: linear-gradient(182deg, #1c2a68 50%, #F8F9FA 51%)
+}
+
+.social {
+    min-height: 550px;
+}

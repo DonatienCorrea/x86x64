@@ -5,23 +5,57 @@ body, a {
     color: #F8F9FA
 }
 
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: inherit;
+}
+
 a:hover {
     color: #4dd32b;
 }
 
-.logo {
-    width: 150px;
+.rotate-10 {
     transform: rotate(10deg);
+}
+
+.logo-x86x64 {
+    max-width: 70%;
+    max-height: 170px;
+    margin-top: 50px;
+}
+
+.logo-205 {
+    max-height: 170px;
+    max-width: 100%;
 }
 
 .separator-wb {
     height: 50px;
-    background: linear-gradient(178deg, #F8F9FA 50%, #1c2a68 51%)
+    background: linear-gradient(178deg, #F8F9FA 50%, #1c2a68 51%);
 }
 
 .separator-bw {
     height: 50px;
-    background: linear-gradient(182deg, #1c2a68 50%, #F8F9FA 51%)
+    background: linear-gradient(182deg, #1c2a68 50%, #F8F9FA 51%);
+}
+
+.separator-desertbg {
+    height: 50px;
+    background: linear-gradient(178deg, transparent 50%, #1c2a68 51%);
+}
+
+.big-container {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+.desert-bg {
+    background-image: url('./images/desert.jpg');
+    background-position: bottom;
+    background-size: cover;
 }
 
 .social {

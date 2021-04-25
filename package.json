@@ -1,0 +1,25 @@
+{
+  "name": "x86x64",
+  "version": "1.0.0",
+  "description": "x86x64's association website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonatienCorrea/x86x64.git"
+  },
+  "keywords": [
+    "raid",
+    "205",
+    "nomadraid",
+    "aventure"
+  ],
+  "author": "Donatien Correa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DonatienCorrea/x86x64/issues"
+  },
+  "homepage": "https://github.com/DonatienCorrea/x86x64#readme"
+}

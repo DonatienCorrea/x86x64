@@ -24,7 +24,6 @@ a:hover {
 .logo-x86x64 {
     max-width: 70%;
     max-height: 170px;
-    margin-top: 50px;
 }
 
 .logo-205 {
@@ -60,4 +59,18 @@ a:hover {
 
 .social {
     min-height: 550px;
+}
+
+.justified {
+    text-align: justify;
+}
+
+.photo-frame {
+    max-width: 90%;
+    border-radius: 2rem;
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 5px 15px;
+}
+
+.photo-frame-container {
+    text-align: center;
 }
